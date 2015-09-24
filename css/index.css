@@ -1,0 +1,45 @@
+/* 头部 */
+.header{width: 100%;height: 68px;background: #051b2a;border-bottom: 3px solid #bf8a1f;}
+.header .inner-wrap{width: 980px;margin: 0 auto;}
+a.logo{display: block;width: 244px;height: 59px;background: url(../images/logo.png) no-repeat;margin-top: 6px;}
+
+/* 头部导航 */
+ul.menu-top{}
+ul.menu-top>li{float: left;}
+ul.menu-top li a{color: #cfdde5;line-height: 68px;display: block;padding: 0 10px;overflow: hidden;}
+ul.menu-top li:hover ul{display: block;}
+ul.menu-top li:hover a{background:#bf8a1f;color:#fff;}
+ul.menu-top li:hover a i.arrow-down{background: url(../images/icon/arrow_top.png) no-repeat;}
+ul.menu-top li a span{ float: left;}
+i.arrow-down{ float: left; display: block;width: 13px;height: 6px;background: url(../images/icon/arrow_down.png) no-repeat;margin-top: 32px;margin-left: 5px;}
+ul.menu-top>li{position: relative;z-index: 1;}
+ul.menu-top li ul{position: absolute;z-index:2;display: none;}
+ul.menu-top li ul li a{background:#bf8a1f;color:#fff;padding:0 12px;line-height: 40px;height:40px;display: block;width:100%;text-align: center;}
+
+/* 幻灯片 */
+.banner-wrap{clear:both}
+.slideFrame{position:relative;width:100%;height:400px;overflow:hidden}
+.slideFrame li{float:left}
+.slideFrame ul.slideList{display:block;position:relative;height:400px}
+.slideFrame ul.slideList li.slide{display:block;height:400px}
+.slideFrame ul.slideList li.slide a img{width:100%}
+.slideFrame ul.slideController{position:absolute;bottom:10px;right:50%}
+.slideFrame ul.slideController li{margin-right:8px}
+.slideFrame ul.slideController li a.slideNum{display:block;width:11px;height:11px;background:url(../images/banner/dot_off.png) no-repeat}
+.slideFrame ul.slideController li a.current{background:url(../images/banner/dot_on.png) no-repeat}
+
+.content{width: 980px;margin: 30px auto;}
+
+.module-notice{width: 366px;padding:5px 15px 15px;background: #f4f4f4;font-size: 14px;}
+.module-video{width: 326px;}
+.module-entrance{width: 308px;margin-left: 20px;}
+h1.module-tit{font-size: 18px;font-weight: normal;line-height: 35px;font-size: 16px;}
+hr.module-line{height: 0;margin:0;border:0;border-bottom: 1px solid #a7b5c3; width: 100%;}
+a.top-news{display: block; margin: 10px 20px 4px;color: #cc6600;font-size: 14px;}
+
+/* 列表 */
+ul.list-news li{width: 265px; overflow: hidden;}
+i.icon-notice{display: block;float: left;width:9px;height: 9px;margin:9px 3px 0 0;background: url(../images/icon/item.png) no-repeat; }
+ul.list-news li a span{ float: left;font-size: 12px;line-height: 26px;}
+ul.list-news li a:hover span{color: #cc6600;}
+.img-r{margin-top: 10px;}

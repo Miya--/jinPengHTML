@@ -33,8 +33,9 @@ ul.menu-top li ul li a{background:#bf8a1f;color:#fff;padding:0 12px;line-height:
 .module-notice{width: 366px;padding:5px 15px 15px;background: #f4f4f4;font-size: 14px;}
 .module-video{width: 326px;}
 .module-entrance{width: 238px;margin-left: 20px;}
+.module-entrance .module-cont{padding: 0;}
 h1.module-tit{font-size: 18px;font-weight: normal;line-height: 35px;font-size: 16px;}
-hr.module-line{height: 0;margin:0;border:0;border-bottom: 1px solid #a7b5c3; width: 100%;}
+
 a.top-news{display: block; margin: 10px 20px 4px;color: #cc6600;font-size: 14px;}
 
 /* 列表 */
@@ -43,3 +44,53 @@ i.icon-notice{display: block;float: left;width:9px;height: 9px;margin:9px 3px 0 
 ul.list-news li a span{ float: left;font-size: 12px;line-height: 26px;}
 ul.list-news li a:hover span{color: #cc6600;}
 .img-r{margin-top: 10px;}
+
+.icon-tit{overflow: hidden; margin-top: 15px;margin-bottom: 10px;}
+.icon-tit .left-icon{}
+.icon-tit .right-txt{color: #071a2d;font-size: 16px;display: block;line-height: 65px;height: 50px;float: left;margin-left: 15px;}
+.module-cont{overflow: hidden;padding: 10px 0;}
+a.entr-link{ display: block;width: 117px;height: 180px;}
+a.open-on{background: url(../images/optionbg1.jpg) repeat-x;}
+a.soft-down{background: url(../images/optionbg2.jpg) repeat-x;}
+a.entr-link span{display: block;text-align: center;font-size: 16px;color: #fff;}
+a.open-on span.top-icon{margin-top:45px;margin-bottom: 10px;}
+a.soft-down span.top-icon{margin-top:53px;margin-bottom: 12px;}
+
+/* 行情走势 */
+.module-hot{margin-top: 10px;width: 722px;}
+p.news-top{overflow: hidden;}
+p.news-intro{color: #666;line-height: 24px;}
+a.news-name{color: #cc6600;font-size: 15px;line-height: 24px;}
+a.news-name:hover{color: #37b62f;}
+span.news-time{color: #ccc;font-size: 12px;line-height: 24px;float: right!important;}
+a.news-img img{width: 150px; max-height: 107px;}
+.news-cont{width: 556px;margin-left: 15px;}
+ul.news-list{padding-top: 5px;}
+ul.news-list li{clear: both;margin-bottom: 15px;overflow: hidden;}
+
+/* 黄金学院 */
+.module-school{margin-top: 10px;width: 238px;}
+i.icon-school{display: block;float: left;width:13px;height: 13px;margin:8px 8px 0 8px;background: url(../images/icon/item1.png) no-repeat; }
+
+/* 实时资讯 */
+.module-instant{width: 722px;margin-top: 10px;}
+.module-instant .module-cont{padding: 0;}
+i.icon-instant{display: block;float: left;width:14px;height: 14px;margin:8px 8px 0 8px;background: url(../images/icon/item2.png) no-repeat; }
+ul.list-instant li{border-bottom: 1px dotted #dbdada;width: 722px!important;padding: 8px 0;}
+
+.module-right{width: 238px;margin-top: 10px;}
+
+/* 开户流程 */
+.module-process{width: 238px;}
+.module-process .left-icon{margin-top: 15px;}
+a.link-process{ display: block;float: left;padding: 0 5px;line-height: 24px;margin-right: 5px;margin-bottom: 8px;font-size: 12px; color: #fff;background: #e69f52;}
+
+/* 疑问解答 */
+.module-question{width: 238px;}
+.left-line{width:8px;height: 156px; margin-top: 7px; background: url(../images/item3.png) no-repeat;}
+.right-question{width: 220px;}
+.order-num{width: 27px;height: 18px;padding-left:3px; text-align: center; background: url(../images/icon/item4.png) no-repeat;color: #fff;font-size: 12px;line-height: 18px;}
+.question-cont p{font-size: 12px;padding-left: 6px;}
+.question-cont{margin-bottom: 13px;}
+
+/* 白银现货 */

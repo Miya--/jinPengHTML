@@ -36,12 +36,12 @@ ul.menu-top li ul li a{background:#bf8a1f;color:#fff;padding:0 12px;line-height:
 .module-entrance .module-cont{padding: 0;}
 h1.module-tit{font-size: 18px;font-weight: normal;line-height: 35px;font-size: 16px;}
 
-a.top-news{display: block; margin: 10px 20px 4px;color: #cc6600;font-size: 14px;}
+a.top-news{display: block; margin:11px 20px 6px;color: #cc6600;font-size: 14px;}
 
 /* 列表 */
 ul.list-news li{width: 265px; overflow: hidden;}
 i.icon-notice{display: block;float: left;width:9px;height: 9px;margin:9px 3px 0 0;background: url(../images/icon/item.png) no-repeat; }
-ul.list-news li a span{ float: left;font-size: 12px;line-height: 26px;}
+ul.list-news li a span{ float: left;font-size: 12px;line-height: 29px;}
 ul.list-news li a:hover span{color: #cc6600;}
 .img-r{margin-top: 10px;}
 
@@ -56,8 +56,10 @@ a.entr-link span{display: block;text-align: center;font-size: 16px;color: #fff;}
 a.open-on span.top-icon{margin-top:45px;margin-bottom: 10px;}
 a.soft-down span.top-icon{margin-top:53px;margin-bottom: 12px;}
 
+.module-entrance .icon-tit{margin-top: 18px;margin-bottom: 20px;}
+
 /* 行情走势 */
-.module-hot{margin-top: 10px;width: 722px;}
+.module-hot{margin-top: 10px;width: 722px;margin-bottom: -30px;}
 p.news-top{overflow: hidden;}
 p.news-intro{color: #666;line-height: 24px;}
 a.news-name{color: #cc6600;font-size: 15px;line-height: 24px;}
@@ -69,13 +71,13 @@ ul.news-list{padding-top: 5px;}
 ul.news-list li{clear: both;margin-bottom: 15px;overflow: hidden;}
 
 /* 黄金学院 */
-.module-school{margin-top: 10px;width: 238px;}
+.module-school{margin-top: 10px;width: 238px;margin-bottom: -20px;}
 i.icon-school{display: block;float: left;width:13px;height: 13px;margin:8px 8px 0 8px;background: url(../images/icon/item1.png) no-repeat; }
 
 /* 实时资讯 */
 .module-instant{width: 722px;margin-top: 10px;}
 .module-instant .module-cont{padding: 0;}
-i.icon-instant{display: block;float: left;width:14px;height: 14px;margin:8px 8px 0 8px;background: url(../images/icon/item2.png) no-repeat; }
+i.icon-instant{display: block;float: left;width:14px;height: 14px;margin:7px 8px 0 8px;background: url(../images/icon/item2.png) no-repeat; }
 ul.list-instant li{border-bottom: 1px dotted #dbdada;width: 722px!important;padding: 8px 0;}
 
 .module-right{width: 238px;margin-top: 10px;}
@@ -84,6 +86,7 @@ ul.list-instant li{border-bottom: 1px dotted #dbdada;width: 722px!important;padd
 .module-process{width: 238px;}
 .module-process .left-icon{margin-top: 15px;}
 a.link-process{ display: block;float: left;padding: 0 5px;line-height: 24px;margin-right: 5px;margin-bottom: 8px;font-size: 12px; color: #fff;background: #e69f52;}
+a.link-process:hover{background: #021b29;}
 
 /* 疑问解答 */
 .module-question{width: 238px;}
@@ -94,3 +97,31 @@ a.link-process{ display: block;float: left;padding: 0 5px;line-height: 24px;marg
 .question-cont{margin-bottom: 13px;}
 
 /* 白银现货 */
+.module-goods{position: relative;z-index: 1;margin-bottom: 30px;margin-top: 30px;}
+.bottom-tit{ position: relative;z-index: 2;bottom: -1px; width: 90px;height: 34px;background: #666 url(../images/icon/arrow_top1.png) no-repeat center bottom;color: #fff;font-size: 15px;line-height: 34px;text-align: center;}
+.bottom-cont{border-bottom: 1px solid #ccc;overflow: hidden;}
+.leftbar{width: 22px;height: 168px;background: #d0d0d0 url(../images/icon/arrow_left.png) no-repeat center center;cursor:pointer;}
+.rightbar{width: 22px;height: 168px;background: #d0d0d0 url(../images/icon/arrow_right.png) no-repeat center center;cursor:pointer;}
+ul.goods-list{width:891px;height: 168px; overflow: hidden;margin:0 11px 0 34px;}
+ul.goods-list li{float: left;margin-right: 22px;margin-top: 12px;}
+a.goods-img{display: block;}
+a.goods-name{display: block; text-align: center;line-height: 24px;font-size: 13px;}
+
+/* 合作伙伴 */
+.module-cooperation{position: relative;z-index: 1;margin-bottom: 30px;}
+a.bank-item{ display: block; background: #eee; width: 159px;height: 39px;float:left;margin-right: 5px;margin-top: 10px;}
+.module-cooperation .bottom-cont{border:0;margin-right: -10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

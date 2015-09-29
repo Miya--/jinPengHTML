@@ -27,9 +27,22 @@ iframe {border: 0;}
 .f-r { float: right;}
 .f-l {float: left;}
 
+/* 版权 */
+.copyright { width: 100%;height:38px;background: #0a111b;clear: both;}
+.copyright p { width: 100%;color: #a4a4a4;font-size: 12px;line-height: 38px;text-align: center;}
+
 /* footer */
-.footer { width: 100%;border-top: 1px solid #dfdfdf;background: #fbfbfb;padding: 5px 0;clear: both;margin-top: 55px;}
-.footer p { width: 1200px;margin: 0 auto;color: #9F9F9F;font-size: 12px;line-height: 28px;}
+.footer{width: 100%;background: #132333;}
+.footer-inner{width: 980px;margin: 0 auto;overflow: hidden;}
+ul.footer-nav{ overflow: hidden;margin: 10px 0;}
+ul.footer-nav li{float: left;margin-right: 50px;}
+p.nav-tit{color: #fff;font-size: 14px;line-height: 30px;border-bottom: 1px solid #bf8a1f;margin-bottom: 5px;}
+ul.nav-list li{float: none;margin: 0;}
+ul.nav-list li a{color: #c8c8c8; font-size: 12px;}
+ul.nav-list li a:hover{color: #fff;}
+.footer-logo{width: 220px;height: 56px;margin: 40px; background: url(../images/logo_down.png) no-repeat;}
+.company-infor{color: #c8c8c8;font-size: 12px;line-height: 22px;}
+p.infor-tit{color: #bf8a1f;margin: 10px 0;}
 
 /* checkbox */
 div.checkbox-control{ display: block; width: 18px; height: 17px; cursor: pointer;}

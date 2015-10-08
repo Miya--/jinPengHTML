@@ -63,3 +63,74 @@ div.checkbox-control.uncheck{ background: url(../images/uncheck.png) no-repeat r
 /* 线条 */
 hr.module-line{height: 0;margin:0;border:0;border-bottom: 1px solid #a7b5c3; width: 100%;}
 hr.module-line2{height: 0;margin:0;border:0;border-bottom: 1px solid #ccc; width: 100%;}
+
+/* 头部 */
+.header{width: 100%;height: 68px;background: #051b2a;border-bottom: 3px solid #bf8a1f;}
+.header .inner-wrap{width: 980px;margin: 0 auto;}
+a.logo{display: block;width: 244px;height: 59px;background: url(../images/logo.png) no-repeat;margin-top: 6px;}
+
+/* 头部导航 */
+ul.menu-top{}
+ul.menu-top>li{float: left;}
+ul.menu-top>li.active a{background:#bf8a1f;color:#fff;}
+ul.menu-top li a{color: #cfdde5;line-height: 68px;display: block;padding: 0 10px;overflow: hidden;}
+ul.menu-top li:hover ul{display: block;}
+ul.menu-top li:hover a{background:#bf8a1f;color:#fff;}
+ul.menu-top li:hover a i.arrow-down{background: url(../images/icon/arrow_top.png) no-repeat;}
+ul.menu-top li a span{ float: left;}
+i.arrow-down{ float: left; display: block;width: 13px;height: 6px;background: url(../images/icon/arrow_down.png) no-repeat;margin-top: 32px;margin-left: 5px;}
+ul.menu-top>li{position: relative;z-index: 1;}
+ul.menu-top li ul{position: absolute;z-index:2;display: none;}
+ul.menu-top li ul li a{background:#bf8a1f;color:#fff;padding:0 12px;line-height: 40px;height:40px;display: block;width:100%;text-align: left;}
+ul.menu-top li ul li a:hover{color: #072029}
+
+/* 文章列表 */
+.module-artical{width: 100%;margin: 0;}
+.module-artical .icon-tit{margin-top: 0;}
+.artical-cont{width: 800px;margin-left: 15px;}
+
+/* 文章详情 */
+p.artical-name{color: #071a2d;font-size: 20px;line-height: 35px;text-align: center;font-weight: bold;}
+.arti-infor{text-align: center;}
+.arti-infor span.avator img{width: 35px;}
+.arti-infor span.ava-writer{color: #333;font-size: 12px;line-height: 26px;margin: 0 12px;}
+.arti-infor span.ava-time{color: #bbb;font-size: 12px;line-height: 26px;}
+.arti-cont{font-size: 14px;line-height: 24px;color: #666;margin:20px 0;}
+
+/* 分页 */
+.page-nav-wrap{ text-align: center;margin:20px 0 50px;}
+.page-nav-wrap a{padding: 5px 8px;border: 1px solid #ccc;color: #666;font-size: 14px;line-height: 24px;}
+.page-nav-wrap a.active{background: #bf8a1f;color: #fff;border:1px solid #bf8a1f;cursor: default;}
+.page-nav-wrap a:hover{background: #bf8a1f;color: #fff;border:1px solid #bf8a1f;}
+
+/* 投资品种 */
+.invest-type-wrap{ position: relative;color: #666; height: 1082px; background: url(../images/invest_17.jpg) no-repeat left 0;}
+.invest-type-wrap .tit{color: #fff;line-height: 80px;margin-left: 6px;font-size: 16px;font-weight: bold;}
+.intro{position: absolute; top: 25px;left: 92px;}
+.item1{position: absolute;top: 138px;left:217px;}
+.item-tit{color: #051b2a;font-weight: bold;font-size: 18px;line-height: 45px;}
+.item2{position: absolute;top: 265px;left:140px;}
+.item3{position: absolute;top: 400px;left:225px;}
+.item4{position: absolute;top: 400px;left:395px;}
+.item5{position: absolute;top: 520px;left:300px;}
+.item6{position: absolute;top: 520px;left:430px;}
+.item7{position: absolute;top: 655px;left:352px;}
+.item8{position: absolute;top: 655px;left:540px;}
+.item9{position: absolute;top: 790px;left:372px;}
+.item10{position: absolute;top: 790px;left:525px;}
+.item11{position: absolute;top: 920px;left:380px;}
+.item12{position: absolute;top: 920px;left:530px;}
+
+/* 产品优势 */
+.des-txt{font-size: 12px;line-height: 65px; margin-left: 20px;color: #666;}
+ul.adv-list li{ display: inline-block; margin-right: 80px; height: 35px;line-height: 35px; padding: 0 10px; margin-bottom: 10px; color:#fff;border-left: 4px solid #db6f06;background: #666 url(../images/icon/arrow_right1.png) no-repeat left center;}
+
+/* 产品列表 */
+.pro-item{margin-bottom: 20px;}
+p.pro-tit{border-left: 4px solid #bf8a1f; font-weight: bold; font-size: 16px; padding-left: 20px; line-height: 35px; margin-bottom: 10px;}
+ul.pro-list{ overflow: hidden;}
+ul.pro-list li{ float: left; margin-right: 11px; border:1px solid #c6c6c6; border-radius: 4px;}
+ul.pro-list li:hover{border-color:#051b2a;}
+ul.pro-list li:hover .pro-name{color:#051b2a;	 }
+ul.pro-list li a{ display: block;}
+.pro-name{ text-align: center; color: #bf8a1f; line-height: 35px; font-weight: bold;}

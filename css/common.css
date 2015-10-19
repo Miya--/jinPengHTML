@@ -134,3 +134,25 @@ ul.pro-list li:hover{border-color:#051b2a;}
 ul.pro-list li:hover .pro-name{color:#051b2a;	 }
 ul.pro-list li a{ display: block;}
 .pro-name{ text-align: center; color: #bf8a1f; line-height: 35px; font-weight: bold;}
+
+/* 关于我们 */
+.bMap{width: 500px;height:430px;margin-top: 20px;}
+.stru-left{margin-right:30px; }
+ul.stru-left li a{line-height: 30px;font-size: 16px;display: block;border-bottom: 1px solid #ccc;padding: 3px 25px;}
+ul.stru-left li a:hover{color:#cc6600;}
+ul.stru-left li.active a{color: #fff;font-weight: bold;background: #cc6600;border:0;}
+.right-cont p{line-height: 24px;color: #777;}
+.stru-right{width: 836px;}
+.stru-right img{margin-right: 10px;margin-top: 10px;}
+p.txt1{border-left: 2px solid #cc6600;padding: 0 8px;margin: 15px 0;}
+
+/* 招贤纳士 */
+p.join-tit{color: #071a2d;font-size: 16px;line-height: 35px;font-weight: bold;}
+.join-list{margin-bottom: 30px; margin-left: 23px;}
+.join-list li{line-height: 30px;color: #777;}
+.join-list li i.icon-notice{margin: 10px 10px 0 0;}
+ul.num-list li{overflow: hidden; margin-bottom: 20px;}
+.left-ava{margin-right: 20px;}
+.left-ava img{width: 80px;}
+p.join-name{line-height: 30px;color: #cc6600!important;font-weight: bold;margin-top: 5px;}
+.right-des p{line-height: 24px;color: #777;}
